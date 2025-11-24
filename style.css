@@ -1,0 +1,111 @@
+
+@CHARSET "ISO-8859-1";
+*{
+margin : 0;
+padding : 0;
+box-sizing: border-box; 
+}
+body{
+  overflow-x :hidden;
+   background:#f2edf0;
+}
+.container{
+position :relative;
+width :100%;
+}
+.sidebar{
+position : fixed;
+width : 300px;
+height : 100%;
+background  : linear-gradient(45deg, #e86da9, #bfbbbe);
+overflow-x : hidden;
+box-shadow : 0 4px 8px 0 rgba(0,0,0,0.2);
+z-index :2;
+}
+.sidebar h2{
+padding : 20px;
+user-select : none;
+}
+.sidebar ul li {
+width : 100px;
+list-style : none;
+}
+.sidebar ul li a{
+
+width : 100%;
+text-decoration : none;
+color : white ;
+height : 40px;
+display : flex;
+align-items : center; 
+margin : 30px;
+gap : 10px;
+}
+
+.sidebar ul li:first-child{
+line-height :60px;
+margin-bottom: 20px;
+font-weight :600;
+}
+.sidebar ul li:first-child:hover{
+background : none;
+}
+.sidebar ul li a i{
+min-width : 30px;
+font-size : 20px;
+text-align : center;
+}
+.sidebar .heading {
+color : black;
+padding : 0 10px;
+text-decoration : none;
+padding: 15px;
+text-align : center;
+align-items : center;
+display : flex;
+font-weight : 600;
+font-size : 30px;
+}
+.sidebar .heading:hover{
+background-color : #771f7d;
+}
+.sidebar .title {
+padding : 0 10px;
+font-size :15px;
+white-space: nowrap; 
+}
+.sidebar .title:hover{
+color : #a15c7d;
+}
+.main{
+	flex-grow : 1;
+	padding:30px;
+	text-align : center;
+	align-items:center;
+	
+}
+.main h2 {
+	color : #b08696;
+}
+table{
+	border-collapse : collapse;
+	width : 60%;
+	margin-top : 20px;
+}
+th, td {
+	padding : 8px;
+	border : 1px solid #999;
+	text-align : center;
+}
+th{
+	background-color : #cfaeba;
+}
+
+
+
+
+
+
+
+
+
